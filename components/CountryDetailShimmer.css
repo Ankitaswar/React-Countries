@@ -1,0 +1,33 @@
+.shimmer .flag{
+    width: 40%;
+    height: 240px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.shimmer .title{
+    height: 36px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.country-details.shimmer{
+    height: 22px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.country-details.shimmer p{
+    width: 50%;
+}
+
+.details-text-container{
+    flex-grow: 1;
+}
+
+@media (max-width: 940px){
+    .shimmer .flag .details-text-container{
+        width: 100%;
+        max-width: 400px;
+    }
+}
